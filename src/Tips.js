@@ -1,12 +1,16 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import { BrowserRouter as Router} from "react-router-dom";
 
-function Tips() {
-  return (
-    <div>
-      <h1>just the tip x</h1>
+import About from "./About";
+import Community from "./Community";
+
+import Nav from "../../components/js/Nav.js";
+ 
+export default function Tips() {
+    return (
+     <div classname= "tips-page">
+        <h1>hello</h1>
+
     </div>
-  );
+    );
 }
-
-export default Tips;

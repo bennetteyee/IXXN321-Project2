@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+
+.about{
+    height: 450px;
+    width: device-width;
+    background-color: white;
+    font-size: 20px; 
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    
+}
+
+.about h1{
+    padding-top: 100px;
+    padding-left: 30px;
+
+}
+
+.image{
+  padding: 50px;
+}

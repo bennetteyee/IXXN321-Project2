@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+
 .main-nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 10vh;
-    background: rgb(255,255,255);
+    background: rgb(255,255,255)
 }
 
 .nav-link{
+    text-decoration: none;
     color: black;
     font-size: 30px; 
+    font-family: 'Overpass', sans-serif;
 } 
