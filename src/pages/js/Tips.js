@@ -1,10 +1,11 @@
 import React from 'react'
 
-export default function Tips() {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+export const Tips = () => (
+
+<div>
+    <h2>Tips page</h2>     
+</div>
+
+)
+ 
 

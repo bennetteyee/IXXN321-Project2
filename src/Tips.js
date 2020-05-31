@@ -1,16 +1,11 @@
 import React from 'react'
-import { BrowserRouter as Router} from "react-router-dom";
 
-import About from "./About";
-import Community from "./Community";
+export const Tips = () => (
 
-import Nav from "../../components/js/Nav.js";
+<div>
+    <h2>About page</h2>     
+</div>
+
+)
  
-export default function Tips() {
-    return (
-     <div classname= "tips-page">
-        <h1>hello</h1>
 
-    </div>
-    );
-}
