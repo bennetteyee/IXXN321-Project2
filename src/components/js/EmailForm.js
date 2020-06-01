@@ -15,7 +15,7 @@ export const EmailForm = () => (
 <Form>
   <Form.Group controlId="formGroupEmail">
     <Form.Label>Join now for weekly updates and newsletters</Form.Label>
-    <Form.Control type="email" placeholder="Enter email" />
+    <Form.Control type="email" placeholder="Enter email here..." />
   </Form.Group>
 </Form>
 </Styles>
