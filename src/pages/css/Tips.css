@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
 .title{
     background: #EAA58B;
     padding: 15px;
@@ -10,6 +11,7 @@
     padding-left: 10px;
     font-size: 45pt;
     position: relative;
+    font-family: 'Overpass', sans-serif;
 }
 .context p{
     padding-top: 0px;
@@ -19,6 +21,7 @@
     padding: none;
     font-size: 12.5pt;
     position: relative;
+    font-family: 'Overpass', sans-serif;
 
 }
 
@@ -36,6 +39,7 @@
     font-size: 20pt;
     position: relative;;
     margin: 0;
+    font-family: 'Overpass', sans-serif;
 }
 
 .content p{
@@ -45,6 +49,7 @@
     font-size: 1vw;
     word-wrap: break-word;
     position: absolute;
+    font-family: 'Overpass', sans-serif;
 
 }
 
@@ -60,12 +65,14 @@ p{
     padding-left: 10px;
     font-size: 13pt;
     position: relative;
+    font-family: 'Overpass', sans-serif;
 }
 
 .name h1{
     font-size: 30px;
     padding-top: 20px;
     padding-left: 10px;
+    font-family: 'Overpass', sans-serif;
 }
 
 .photo1{

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
 .section{
     flex-direction: row;
     display: flex;
@@ -31,7 +30,7 @@
  font-size: 3.2vw;
  position: relative;
  overflow-wrap: break-word;
- 
+ font-family: 'Overpass', sans-serif;
 
 }
 
@@ -41,6 +40,7 @@
  padding-bottom: 0px;
  overflow-wrap: break-word;
  font-size: 1.3vw;
+ font-family: 'Overpass', sans-serif;
 }
 
 h3{
@@ -48,5 +48,6 @@ h3{
   padding-left: 50px;
   padding-bottom: 0px;
   overflow-wrap: break-word;
+  font-family: 'Overpass', sans-serif;
 }
 
