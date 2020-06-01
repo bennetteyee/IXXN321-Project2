@@ -8,6 +8,10 @@ npm install --save styled-components
 ### React Bootstrap
 npm install react-bootstrap bootstrap
 
+## Illustrations
+
+Illustrations sourced from: https://www.drawkit.io/product/working-from-home-illustrations
+
 
 ## Available Scripts
 
