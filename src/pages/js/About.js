@@ -23,6 +23,7 @@ export default class About extends Component {
          <h3>Find tips on how to stay productive during this lockdown.</h3>
          <Image src={require("../../images/wfh_5.svg")} className="photo1" rounded />
      </div>
+     
      <EmailForm/>
      </Layout>
      

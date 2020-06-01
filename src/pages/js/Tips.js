@@ -23,7 +23,6 @@ export default class Tips extends Component {
          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
          non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p>
-  
 
     </div>
         <Image src={require("../../images/wfh_5.svg")} className="photo1" rounded />      
@@ -42,6 +41,21 @@ export default class Tips extends Component {
 
     </div>
         <Image src={require("../../images/wfh_9.svg")} className="photo1" rounded />      
+    </div>
+    
+    <div className = "name">
+        <h1>DON'T BE TOO HARSH ON YOURSELF:</h1>
+    </div>
+    <div className= "info-container">
+    <div clasName= "content">
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+         reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+         non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p>
+        
+
+    </div>
+        <Image src={require("../../images/wfh_4.svg")} className="photo1" rounded />      
     </div>
     
        <EmailForm/>
