@@ -8,7 +8,7 @@ import Community from "./Community";
 export const NoMatch = () => (
 
 <div>
-    <h2>About page</h2>     
+    <h2>Error 404: Page not found</h2>     
 </div>
 
 )

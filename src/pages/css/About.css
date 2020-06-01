@@ -1,5 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
 
-.container{
-    background-color: black;
+.section{
+    flex-direction: row;
+    display: flex;
+    align-content: flex-start;
+    width: 100%;
+    height: 400px;
 }
+
+.colour-section{
+    flex-direction: row;
+    display: flex;
+    align-content: flex-start;
+    width: 100%;
+    height: 400px;
+    background: #EAA58B;
+}
+
+.photo1{
+  float: right;
+  width: 100%;
+  vertical-align: baseline;
+ 
+}
+p{
+ padding-top: 125px;
+ text-align: center;
+ padding-left: 30px;
+ font-size: 13pt;
+ position: relative;
+}
+h3{
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-bottom: 0px;
+}
+
