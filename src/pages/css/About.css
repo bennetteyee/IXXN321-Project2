@@ -15,24 +15,38 @@
     width: 100%;
     height: 400px;
     background: #EAA58B;
+    border-radius: 20px;
 }
 
 .photo1{
   float: right;
   width: 100%;
   vertical-align: baseline;
- 
 }
-p{
- padding-top: 125px;
+
+.p{
+ padding-top: 12px;
  text-align: center;
  padding-left: 30px;
- font-size: 13pt;
+ font-size: 3.2vw;
  position: relative;
+ overflow-wrap: break-word;
+ 
+
 }
+
+.content h3{
+ padding-top: 125px;
+ padding-left: 50px;
+ padding-bottom: 0px;
+ overflow-wrap: break-word;
+ font-size: 1.3vw;
+}
+
 h3{
-  padding-top: 150px;
+  padding-top: 125px;
   padding-left: 50px;
   padding-bottom: 0px;
+  overflow-wrap: break-word;
 }
 

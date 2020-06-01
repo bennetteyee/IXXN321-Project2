@@ -1,21 +1,28 @@
+.title{
+    background: #EAA58B;
+    padding: 15px;
+    border-radius: 20px;
+}
+
 .title h1{
-    padding-top: 60px;
+    padding-top: 30px;
     text-align:left;
     padding-left: 10px;
     font-size: 45pt;
     position: relative;
 }
 .context p{
-    padding-top: 10px;
+    padding-top: 0px;
+    padding-bottom: 0;
     padding-left: 10px;
     text-align: left;
     padding: none;
-    font-size: 10pt;
+    font-size: 12.5pt;
     position: relative;
 
 }
 
-.section{
+.info-container{
     flex-direction: row;
     display: flex;
     align-content: flex-start;
@@ -23,17 +30,48 @@
     height: 400px;
 }
 
-.section h1{
-    padding-top: 60px;
+.info-container h1{
+    padding-top: 0px;
+    padding-left: 10px;
     font-size: 20pt;
-    position: fixed;
+    position: relative;;
+    margin: 0;
 }
 
 .content p{
-    padding-top: 10px;
+    padding-top: none;
     text-align: left;
     padding: none;
-    font-size: 10pt;
-    position: relative;
+    font-size: 1vw;
+    word-wrap: break-word;
+    position: absolute;
 
 }
+
+content{
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+
+p{
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 13pt;
+    position: relative;
+}
+
+.name h1{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.photo1{
+    float: right;
+    width: 100%;
+    
+  }
+
+

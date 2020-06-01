@@ -14,8 +14,8 @@ export default class About extends Component {
      </div>
      <div className= "colour-section">
        <div className= "content">
-       <p>My bubble aims provides a sense of community during this unprecedented <br></br>
-       time of COVID-19. People can share their recent activites and tips during their lockdown. </p>
+       <h3>My bubble aims provides a sense of community during this unprecedented <br></br>
+       time of COVID-19. People can share their recent activites and tips during their lockdown. </h3>
        </div> 
        <Image src={require("../../images/wfh_9.svg")} className="photo1" rounded />
     </div>

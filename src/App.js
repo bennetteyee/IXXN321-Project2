@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 import About from './pages/js/About.js';
 import Tips from "./pages/js/Tips.js";
-import {Community} from "./pages/js/Community.js";
+import Community from "./pages/js/Community.js";
 import {NoMatch} from "./pages/js/NoMatch.js";
 
 import {NavigationBar} from "./components/js/NavigationBar.js";
