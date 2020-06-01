@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Col, Image, Row} from 'react-bootstrap';
+import { Image} from 'react-bootstrap';
 import "./../css/About.css";
 import {EmailForm} from "./../../components/js/EmailForm.js";
 import{Layout} from "./../../components/js/Layout.js";

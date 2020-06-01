@@ -1,11 +1,34 @@
-import React from 'react'
+import React, { Component } from 'react';
+import { Image} from 'react-bootstrap';
+import "./../css/Tips.css";
+import {EmailForm} from "./../../components/js/EmailForm.js";
+import{Layout} from "./../../components/js/Layout.js";
 
-export const Tips = () => (
+export default class Tips extends Component {
+    render() {
+      return (
+      <Layout>
+     <div className= "title">
+        <h1>TIPS</h1>
+            <div className= "context">
+            <p>THIS IS WHERE YOU CAN FIND HELPFUL INFORMATION AND TIPS THIS LOCKDOWN:</p>
+        </div>
+    </div>
 
-<div>
-    <h2>Tips page</h2>     
-</div>
+    <div className= "section">
+         <h1>Start your day with a routine:</h1>
+         <div clasName= "content">
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+         reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+         non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p>
+         </div>
 
-)
- 
-
+         <Image src={require("../../images/wfh_3.svg")} className="photo1" rounded />
+    </div>
+       <EmailForm/>
+       </Layout>
+       
+      )
+    }
+  }
