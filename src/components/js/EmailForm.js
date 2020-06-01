@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
    .form-group{
-       background: #F4E6D8;
+       background: #EAA58B;
        padding: 15px;
        border-radius: 20px;
    }
