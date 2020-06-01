@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Description
+
+My initial idea for my web application is inspired by the nationwide lockdown from the COVID-19 virus, which has led some people working from home. During this unprecedented time, it was important for people to adjust to lifestyle changes according to the strict guidelines. Therefore, I wanted to make an informative web application where you can find tips and activities to do during lockdown. 
+
 ## Dependencies
 
 ### Styled Components
