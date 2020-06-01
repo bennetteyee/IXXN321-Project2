@@ -1,7 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Dependencies
+
+### Styled Components
 npm install --save styled-components
+
+### React Bootstrap
 npm install react-bootstrap bootstrap
 
 
